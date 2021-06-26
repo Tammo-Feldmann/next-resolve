@@ -4,8 +4,8 @@ import Image from 'next/image'
 export const Home = (): JSX.Element => (
   <div className="container">
     <Head>
-      <title>Create Next App</title>
-      <link rel="icon" href="/favicon.ico" />
+      <title>Reference Resolution</title>
+      <link rel="icon" href="/favicon.svg" />
     </Head>
 
     <main>

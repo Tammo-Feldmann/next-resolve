@@ -4,9 +4,10 @@
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev",
+    "start": "next dev -p 9000",
+    "dev": "next dev -p 9000",
     "build": "next build",
-    "start": "next start",
+    "serve": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext ts --ext tsx --ext js",
